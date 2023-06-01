@@ -6,23 +6,23 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (如果想使用SSH密钥，请使用 git@github.com:XXXXX)，安卓10以上设备树：https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
-        default: 'twrp-7.1'
+        default: 'twrp-12.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/momo54181/android_device_gionee_GIONEE_BBL7516A'
+        default: 'https://github.com/iamr0s/android_device_tree_xiaomi_mona.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'android-7.1'
+        default: 'android-13'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/gionee/GIONEE_BBL7516A'
+        default: 'device/xiaomi/mona'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (如果没有通用设备树，请留空)'
         required: false
@@ -32,15 +32,15 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'GIONEE_BBL7516A'
+        default: 'mona'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_I003D'
+        default: 'twrp_mona'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
-        default: 'recovery'
+        default: 'boot'
 
 jobs:
   build:
