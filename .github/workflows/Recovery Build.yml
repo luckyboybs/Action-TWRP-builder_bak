@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/deltainno/darwin'
+        default: 'device'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (如果没有通用设备树，请留空)'
         required: false
