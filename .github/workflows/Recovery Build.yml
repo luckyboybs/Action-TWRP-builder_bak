@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_darwin'
+        default: 'twrp_darwin'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -101,8 +101,8 @@ jobs:
         mkdir workspace
         cd workspace
         echo "workspace-folder=$(pwd)" >> $GITHUB_OUTPUT
-        git config --global user.name "Nico170420"
-        git config --global user.email "b170420nc@gmail.com"
+        git config --global user.name "luckyboybs"
+        git config --global user.email "luckyboylh2012@gmail.com"
         repo init --depth=1 -u ${{ github.event.inputs.MANIFEST_URL }} -b ${{ github.event.inputs.MANIFEST_BRANCH }}
       id: pwd
           
@@ -129,8 +129,8 @@ jobs:
       id: buildtree
       with:
         cond: ${{ github.event.inputs.MANIFEST_BRANCH == 'twrp-11' || github.event.inputs.MANIFEST_BRANCH == 'twrp-11' }}
-        if_true: omni
-        if_false: twrp
+        if_true: twrp
+        if_false: omni
 
     - name: Sync Device Dependencies
       run: |
