@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/luckyboybs/darwin.git'
+        default: 'https://github.com/lly-q/android_device_smartisan_darwin.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'master'
+        default: 'rebase-11'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
