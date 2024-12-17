@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/luckyboybs/darwin.git'
+        default: 'https://github.com/luckyboybs/darwin_v1.git'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
@@ -22,7 +22,7 @@ on:
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/deltainno/darwin'
+        default: 'device/qualcomm/qssi'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (如果没有通用设备树，请留空)'
         required: false
@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_darwin'
+        default: 'lineage_qssi'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
