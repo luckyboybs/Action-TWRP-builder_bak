@@ -6,7 +6,7 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (如果想使用SSH密钥，请使用 git@github.com:XXXXX)，安卓10以上设备树：https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git'
+        default: 'https://github.com/luckyboybs/platform_manifest_twrp_omni-_smart.git'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
         required: true
