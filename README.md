@@ -1,23 +1,25 @@
-# Ê¹ÓÃGithub ActionÀ´±àÒë»Ö¸´
+# ä½¿ç”¨Github Actionæ¥ç¼–è¯‘æ¢å¤
 
-- Ö§³ÖSHRP, TWRP µÄ±àÒëºÍÉú²ú
+- æ”¯æŒSHRP, TWRP çš„ç¼–è¯‘å’Œç”Ÿäº§
 
 ---
 
-## ¸ĞĞ»
-- ËùÓĞ¹±Ï×Õß
-- ÄªÄªºº»¯ README.md
+## æ„Ÿè°¢
+- æ‰€æœ‰è´¡çŒ®è€…
+- è«è«æ±‰åŒ– README.md
 ---
 
 ## OrangeFox is [here](https://github.com/azwhikaru/Action-OFRP-Builder)
-
-## ·¢²¼ËµÃ÷
+---
+[![æ„å»º Recovery](https://github.com/luckyboybs/Action-TWRP-builder_run/actions/workflows/Recovery%20Build.yml/badge.svg)](https://github.com/luckyboybs/Action-TWRP-builder_run/actions/workflows/Recovery%20Build.yml)
+---
+## å‘å¸ƒè¯´æ˜
 ```
 = 2022/10/28
-- OFRPÇåµ¥ÒÑ±»ĞŞ¸Ä£¬ËùÒÔÏÖÔÚ²»ÍêÈ«Ö§³ÖOFRP£¨Èç¹ûÄãÄÜ½â¾öÕâ¸öÎÊÌâ£¬ÇëÌá½»Ò»¸öPRÇëÇó£¡£©¡£
+- OFRPæ¸…å•å·²è¢«ä¿®æ”¹ï¼Œæ‰€ä»¥ç°åœ¨ä¸å®Œå…¨æ”¯æŒOFRPï¼ˆå¦‚æœä½ èƒ½è§£å†³è¿™ä¸ªé—®é¢˜ï¼Œè¯·æäº¤ä¸€ä¸ªPRè¯·æ±‚ï¼ï¼‰ã€‚
 
 = 2022/07/08
-- TWRPºÍ»ùÓÚTWRPµÄ5.X ~ 12.XÊÇ***È«²¿³É¹¦±àÒëµÄ***¡£
+- TWRPå’ŒåŸºäºTWRPçš„5.X ~ 12.Xæ˜¯***å…¨éƒ¨æˆåŠŸç¼–è¯‘çš„***ã€‚
 
 = 2022/07/06
 - Add support for 5.1 branch
@@ -44,45 +46,45 @@
 
 -----
 
-## ²ÎÊıÃèÊö
+## å‚æ•°æè¿°
 
-| Ãû³Æ | ÃèÊö | Ê¾Àı |
+| åç§° | æè¿° | ç¤ºä¾‹ |
 | ------------ | -------------------- | ------------ |
-| `MANIFEST_URL` | Ô´ÂëµØÖ· | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
-| `MANIFEST_BRANCH` | Ô´Âë·ÖÖ§ | twrp-12.1 |
-| `DEVICE_TREE_URL` | Éè±¸Ê÷µØÖ· | https://github.com/TeamWin/android_device_asus_I003D |
-| `DEVICE_TREE_BRANCH` | Éè±¸Ê÷·ÖÖ§ | android-12.1 |
-| `DEVICE_PATH` | Éè±¸Î»ÖÃ | device/asus/I003D |
-| `COMMON_TREE_URL` | Í¨ÓÃÉè±¸Ê÷µØÖ·£¨Ã»ÓĞµÄ»°ÎŞĞèÌîĞ´£© | https://github.com/TeamWin/android_device_asus_sm8250-common |
-| `COMMON_PATH` | Í¨ÓÃÉè±¸µØÖ·£¨Ã»ÓĞµÄ»°ÎŞĞèÌîĞ´£© | device/asus/sm8250-common |
-| `DEVICE_NAME` | »úĞÍÃû³Æ | I003D |
-| `MAKEFILE_NAME` | ±àÒëÎÄ¼şÃû | omni_I003D |
-| `BUILD_TARGET` | ½¨Á¢Ä¿±ê·ÖÇø (boot/recovery/vendorboot) | recovery |
+| `MANIFEST_URL` | æºç åœ°å€ | https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git |
+| `MANIFEST_BRANCH` | æºç åˆ†æ”¯ | twrp-12.1 |
+| `DEVICE_TREE_URL` | è®¾å¤‡æ ‘åœ°å€ | https://github.com/TeamWin/android_device_asus_I003D |
+| `DEVICE_TREE_BRANCH` | è®¾å¤‡æ ‘åˆ†æ”¯ | android-12.1 |
+| `DEVICE_PATH` | è®¾å¤‡ä½ç½® | device/asus/I003D |
+| `COMMON_TREE_URL` | é€šç”¨è®¾å¤‡æ ‘åœ°å€ï¼ˆæ²¡æœ‰çš„è¯æ— éœ€å¡«å†™ï¼‰ | https://github.com/TeamWin/android_device_asus_sm8250-common |
+| `COMMON_PATH` | é€šç”¨è®¾å¤‡åœ°å€ï¼ˆæ²¡æœ‰çš„è¯æ— éœ€å¡«å†™ï¼‰ | device/asus/sm8250-common |
+| `DEVICE_NAME` | æœºå‹åç§° | I003D |
+| `MAKEFILE_NAME` | ç¼–è¯‘æ–‡ä»¶å | omni_I003D |
+| `BUILD_TARGET` | å»ºç«‹ç›®æ ‡åˆ†åŒº (boot/recovery/vendorboot) | recovery |
 
 -----
 
-## ÔõÑùÊ¹ÓÃ£¿
+## æ€æ ·ä½¿ç”¨ï¼Ÿ
 ```
-ÀıÈç£¬ÄãµÄÓÃ»§ÃûÊÇ£ºJohnSmith
+ä¾‹å¦‚ï¼Œä½ çš„ç”¨æˆ·åæ˜¯ï¼šJohnSmith
 ```
-#### 1. µã»÷¸Ã×ÊÔ´¿âÓÒÉÏ½ÇµÄ'Fork'
+#### 1. ç‚¹å‡»è¯¥èµ„æºåº“å³ä¸Šè§’çš„'Fork'
 ![image](https://user-images.githubusercontent.com/37921907/177914706-c92476c5-7e14-4fb3-be94-0c8a11dae874.png)
-#### 2. ÔÚµÈ´ı×Ô¶¯ÖØ¶¨Ïòºó£¬Äã»á¿´µ½Äã×Ô¼ºµÄÓÃ»§Ãû
+#### 2. åœ¨ç­‰å¾…è‡ªåŠ¨é‡å®šå‘åï¼Œä½ ä¼šçœ‹åˆ°ä½ è‡ªå·±çš„ç”¨æˆ·å
 ![image](https://user-images.githubusercontent.com/37921907/177915106-5bde6fc9-303c-479e-b290-22b48efd1e4e.png)
-#### 3. ¸Ä±ä[ÓÃ»§ÃûºÍµç×ÓÓÊ¼ş](https://github.com/CaptainThrowback/Action-Recovery-Builder/blob/main/.github/workflows/Recovery%20Build.yml#L100-L101) ÔÚ¹¤×÷Á÷³ÌÖĞ·´Ó³ÄãµÄGithubÖ¤Êé£¨¿ÉÑ¡£©
-## ÉèÖÃSSHÃÜÔ¿£¨¿ÉÑ¡£©
-#### 4. ½øÈëÉèÖÃ£¬È»ºóÑ¡Ôñ²¿ÊğÃÜÔ¿£¬Ñ¡Ôñ "Ìí¼Ó²¿ÊğÃÜÔ¿ "°´Å¥¡£
+#### 3. æ”¹å˜[ç”¨æˆ·åå’Œç”µå­é‚®ä»¶](https://github.com/CaptainThrowback/Action-Recovery-Builder/blob/main/.github/workflows/Recovery%20Build.yml#L100-L101) åœ¨å·¥ä½œæµç¨‹ä¸­åæ˜ ä½ çš„Githubè¯ä¹¦ï¼ˆå¯é€‰ï¼‰
+## è®¾ç½®SSHå¯†é’¥ï¼ˆå¯é€‰ï¼‰
+#### 4. è¿›å…¥è®¾ç½®ï¼Œç„¶åé€‰æ‹©éƒ¨ç½²å¯†é’¥ï¼Œé€‰æ‹© "æ·»åŠ éƒ¨ç½²å¯†é’¥ "æŒ‰é’®ã€‚
 
-#### 5. ÔÚÄãµÄ°²×¿Éè±¸ÉÏ£¬°²×°[Termux](https://github.com/termux/termux-app/releases)
+#### 5. åœ¨ä½ çš„å®‰å“è®¾å¤‡ä¸Šï¼Œå®‰è£…[Termux](https://github.com/termux/termux-app/releases)
 
-#### 6. ÔÚTermuxÖĞ°²×°openssh²¢Éú³ÉsshÃÜÔ¿¡£(²»ÒªÊ¹ÓÃÃÜÔ¿µÄ¿ÚÁî)
+#### 6. åœ¨Termuxä¸­å®‰è£…opensshå¹¶ç”Ÿæˆsshå¯†é’¥ã€‚(ä¸è¦ä½¿ç”¨å¯†é’¥çš„å£ä»¤)
 NOTE: When creating the deploy key for a repository like git@github.com:owner/repo.git or https://github.com/owner/repo, put that URL into the key comment. (Hint: Try ssh-keygen ... -C "git@github.com:owner/repo.git".)
 owner = your Github username
 ```
 pkg install openssh
 ssh-keygen -t ed25519 -C "git@github.com:owner/Action-Recovery-Builder.git"
 ```
-#### 7. ½«ÃÜÔ¿Ìí¼Óµ½ÄãµÄ repo ÖĞ¡£ÔÚTermuxÖĞ£¬Ê¹ÓÃÒÔÏÂÃüÁî¡£
+#### 7. å°†å¯†é’¥æ·»åŠ åˆ°ä½ çš„ repo ä¸­ã€‚åœ¨Termuxä¸­ï¼Œä½¿ç”¨ä»¥ä¸‹å‘½ä»¤ã€‚
 ```
 cd /data/data/com.termux/files/usr/etc/ssh
 cat ssh_host_ed25519_key.pub
@@ -90,32 +92,32 @@ cat ssh_host_ed25519_key.pub
   Select and copy the key then paste in the box for Key.
   You can name it whatever you choose for the title.
 
-#### 8. ÏÖÔÚÒªÌí¼ÓÄãµÄË½ÈËSSHÃÜÔ¿¡£»Øµ½TermuxÖĞ¡£
+#### 8. ç°åœ¨è¦æ·»åŠ ä½ çš„ç§äººSSHå¯†é’¥ã€‚å›åˆ°Termuxä¸­ã€‚
 ```
 cat ssh_host_ed25519_key
 ```
-   ¸´ÖÆTermuxµÄÊä³ö¡£
+   å¤åˆ¶Termuxçš„è¾“å‡ºã€‚
 
-   ÔÚÄãµÄä¯ÀÀÆ÷ÖĞ£¬Ñ¡Ôñ°²È«±êÇ©ÏÂµÄ*ÃØÃÜ*¡£
-   Ñ¡Ôñ Actions
-   Ñ¡Ôñ New repository secret
-   ¶ÔÓÚĞÂµÄÃØÃÜÃû³Æ£¬ËüÓ¦¸ÃÊÇ SSH_PRIVATE_KEY
-   ½«ssh_host_ed25519_keyµÄÊä³öÕ³Ìùµ½Value¿òÖĞ¡£
-   È»ºóÑ¡Ôñ Add secret.
+   åœ¨ä½ çš„æµè§ˆå™¨ä¸­ï¼Œé€‰æ‹©å®‰å…¨æ ‡ç­¾ä¸‹çš„*ç§˜å¯†*ã€‚
+   é€‰æ‹© Actions
+   é€‰æ‹© New repository secret
+   å¯¹äºæ–°çš„ç§˜å¯†åç§°ï¼Œå®ƒåº”è¯¥æ˜¯ SSH_PRIVATE_KEY
+   å°†ssh_host_ed25519_keyçš„è¾“å‡ºç²˜è´´åˆ°Valueæ¡†ä¸­ã€‚
+   ç„¶åé€‰æ‹© Add secret.
 
-## ¹¹½¨»Ö¸´
-#### 9. µã»÷ 'Actions-Recovery Build'
+## æ„å»ºæ¢å¤
+#### 9. ç‚¹å‡» 'Actions-Recovery Build'
 ![image](https://user-images.githubusercontent.com/37921907/177915304-8731ed80-1d49-48c9-9848-70d0ac8f2720.png)
-#### 10. ÌîĞ´Íê±Ïºó£¬µã»÷ "Run workflow¡° £¬²¢¸ù¾İÉÏÊö'²ÎÊıÃèÊö'½øĞĞÌîĞ´¡£
+#### 10. å¡«å†™å®Œæ¯•åï¼Œç‚¹å‡» "Run workflowâ€œ ï¼Œå¹¶æ ¹æ®ä¸Šè¿°'å‚æ•°æè¿°'è¿›è¡Œå¡«å†™ã€‚
 ![image](https://user-images.githubusercontent.com/37921907/177915346-71c29149-78fb-4a00-996f-5d84ffc9eb8c.png)
-#### 11. ÌîĞ´Íê±Ïºó£¬µã»÷ "Run workflow "¿ªÊ¼ÔËĞĞ¡£
+#### 11. å¡«å†™å®Œæ¯•åï¼Œç‚¹å‡» "Run workflow "å¼€å§‹è¿è¡Œã€‚
 -----
 
-## ±àÒë½á¹û
-¿ÉÒÔÔÚÒÔÏÂÍøÖ·ÏÂÔØ [Release](../../releases)
+## ç¼–è¯‘ç»“æœ
+å¯ä»¥åœ¨ä»¥ä¸‹ç½‘å€ä¸‹è½½ [Release](../../releases)
 
 -----
-## ×¢ÊÍ
+## æ³¨é‡Š
 
 #### TeamWin Recovery Project: https://github.com/minimal-manifest-twrp
 #### OrangeFox Recovery Project: https://gitlab.com/OrangeFox
